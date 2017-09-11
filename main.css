@@ -8,13 +8,43 @@ header {
   -o-background-size: cover;
   background-size: cover;
   height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 img {
 	max-width: 200px;
 	text-align: center;
 }
-h1 {
+h1, h2 {
 	color: #fff;
-	text-align: center;
 	font-family: 'Roboto', sans-serif;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+}
+footer {
+	background-color: #FF7473;
+	height: 5vh;
+  color: #fff;
+  display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-justify-content: flex-end;
+   justify-content: flex-end;
+}
+footer > p {
+	margin: 0.5em 1em;
+}
+#description {
+	margin: 5em 3em;
+}
+#events-panel {
+	background-color: #1B2536;
+}
+#events-title {
+	margin: 0;
+	padding: 80px 48px;
 }
