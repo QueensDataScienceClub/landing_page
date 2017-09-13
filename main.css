@@ -21,6 +21,9 @@ h1, h2 {
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 }
+h1 {
+  text-align: center;
+}
 p {
 	font-family: 'Roboto', sans-serif;
 }
@@ -45,6 +48,10 @@ a > p {
 }
 #description {
 	margin: 5em 3em;
+}
+#description-link {
+  color: #1B2536;
+  text-decoration: underline;
 }
 #events-panel {
 	background-color: #1B2536;
